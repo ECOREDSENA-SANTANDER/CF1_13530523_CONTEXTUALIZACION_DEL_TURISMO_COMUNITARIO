@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Turismo comunitario: fundamentos y diagnóstico territorial'

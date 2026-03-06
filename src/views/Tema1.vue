@@ -7,7 +7,7 @@
           span 1
         h1 Tendencias turísticas mundiales
         
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.png')})`}"
         )
@@ -16,7 +16,7 @@
             br
             br
          
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 1.

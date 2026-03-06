@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/portada/intro.png')})`}"
       )

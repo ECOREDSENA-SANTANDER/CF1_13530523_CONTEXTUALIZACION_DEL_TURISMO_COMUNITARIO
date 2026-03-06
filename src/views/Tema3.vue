@@ -7,7 +7,7 @@
         span 3
       h1 Tema 3
 
-      p CONTENIDO TEMA 3
+
 
 </template>
 

@@ -37,8 +37,27 @@ figcaption
   font-weight: normal
 .banner-interno__fondo    
   background-image: url("../assets/curso/portada/banner-interno.jpg") !important
-
-
+.fondot2
+  background-image: url('../assets/curso/Tema2/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px) 
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+.fondot2_1
+  background-image: url('../assets/curso/Tema2/fondo2.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 .banner-principal
   @media (max-width: $bp-max-md)
     .tarjeta
@@ -100,7 +119,12 @@ figcaption
 .tarjeta--boton
   border-radius: 20px
   background-color: #69300A
-  
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: #212529
+  font-style: normal !important
+.cajon.color-acento-botones 
+  background-color: #69300A
+
 
 .text-izq
   text-align: left !important
@@ -155,3 +179,32 @@ figcaption
   background-color: #90CAF9
   p,
     color: #12263F !important
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+  border: 2px solid #cccccc
+  background-color: #69300a
+.fa-angle-right 
+  --fa: "\f105"
+  color: #fff
+.fa-angle-left 
+  --fa: "\f104"
+  color: #fff
+.linea-tiempo-c__header__item__dot 
+  background-color: #fff
+  border: 3px solid #cccccc
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #F9A825 !important
+  background-color: #ffff !important
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #F9A825
+.tabs-c.color-primario .tabs-c__tab
+  background-color: #F9A825 
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  border: 1px solid #69300a
+  background-color: #69300a
+.slyder-a__bullets__item--active 
+  background-color: #F4B400
+  border-color: #F4B400
+  opacity: 1
+.slyder-a__bullets__item 
+  background-color: #E67E22
+  margin: 0 5px

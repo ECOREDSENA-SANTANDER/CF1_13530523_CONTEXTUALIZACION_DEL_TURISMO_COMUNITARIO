@@ -205,8 +205,8 @@
               )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mt-3
-                em Pódcast:
-                |  Podcast: Para reflexionar sobre la ética y la estrategia en el turismo comunitario, se recomienda escuchar el #[em podcast] Ética y estrategia: los pilares del turismo responsable.
+                em.color Pódcast:
+                |  para reflexionar sobre la ética y la estrategia en el turismo comunitario, se recomienda escuchar el #[em.color podcast] " Ética y estrategia: los pilares del turismo responsable ".
 
 
 

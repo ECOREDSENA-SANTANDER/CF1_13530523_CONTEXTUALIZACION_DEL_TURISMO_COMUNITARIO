@@ -325,12 +325,13 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
                 texto="¿Qué es el turismo comunitario y por qué importa?"
-                :audio="require('@/assets/curso/Tema7/prueba.mp3')"
+                :audio="require('@/assets/curso/Tema2/podcast.mp3')"
               )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              p.mt-3
-                em Pódcast:
-                |  Para profundizar en el concepto y la importancia del turismo comunitario, se recomienda escuchar el #[em podcast] ¿Qué es el turismo comunitario y por qué importa?
+              p.mt-3.mb-0
+                em.color Podcast:
+                |  Para profundizar en el concepto y la importancia del turismo comunitario, se recomienda escuchar el #[em.color podcast] ¿Qué es el turismo comunitario y por qué importa?
+     
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
         .d-flex.align-items-center.mt-4

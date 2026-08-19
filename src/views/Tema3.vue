@@ -86,7 +86,7 @@
           img.w-card-icon(src="@/assets/curso/Tema6/ico.svg")
           h3.bg4.py-2.w-card-text.text-white Objetivos de Desarrollo Sostenible (ODS)
 
-    p.mb-4 Para profundizar en los Objetivos de Desarrollo Sostenible (ODS) y su relación con el turismo comunitario, se recomienda consultar el video. Conceptos de desarrollo sostenible y educación ambiental.
+    p.mb-4 Para profundizar en los Objetivos de Desarrollo Sostenible (ODS) y su relación con el turismo comunitario, se recomienda consultar el video: conceptos de desarrollo sostenible y educación ambiental.
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")          
       .col-lg-12

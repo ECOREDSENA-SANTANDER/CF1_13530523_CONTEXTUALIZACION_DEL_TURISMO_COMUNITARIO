@@ -330,7 +330,7 @@
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mt-3.mb-0
                 em.color Podcast:
-                |  Para profundizar en el concepto y la importancia del turismo comunitario, se recomienda escuchar el #[em.color podcast] ¿Qué es el turismo comunitario y por qué importa?
+                |  para profundizar en el concepto y la importancia del turismo comunitario, se recomienda escuchar el #[em podcast] ¿Qué es el turismo comunitario y por qué importa?
      
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12

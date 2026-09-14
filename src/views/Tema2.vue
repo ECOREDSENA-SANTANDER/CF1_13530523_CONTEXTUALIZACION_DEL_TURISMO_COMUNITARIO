@@ -313,24 +313,7 @@
             p Asimismo, se promueve la accesibilidad universal como principio transversal. Esto implica que la información turística debe presentarse de manera comprensible para todas las personas, incluyendo descripciones detalladas de los espacios y actividades para quienes utilizan lectores de pantalla o requieren apoyos específicos.
         p.mb-0 El MinCIT (2021) destaca que la planificación turística debe incorporar criterios de sostenibilidad, inclusión y respeto por la diversidad cultural, con el fin de garantizar experiencias responsables y seguras.
     
-    .row.justify-content-center.mb-4
-        .col-lg-12
-          img.w-100(
-            src='@/assets/curso/Tema7/podcast.svg'
-            alt='Texto que describa la imagen'
-            data-aos="zoom-in-left"
-          )
-        .col-lg-12
-          .tarjeta.clr--pink.p-4.rounded-0.h-100.bg12
-            .tarjeta.bg-white.p-4
-              TarjetaAudio.color-acento-botones(
-                texto="¿Qué es el turismo comunitario y por qué importa?"
-                :audio="require('@/assets/curso/Tema2/podcast.mp3')"
-              )
-              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              p.mt-3.mb-0
-                em.color Podcast:
-                |  para profundizar en el concepto y la importancia del turismo comunitario, se recomienda escuchar el #[em podcast] ¿Qué es el turismo comunitario y por qué importa?
+    
      
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12

@@ -201,7 +201,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
                 texto="Ética y estrategia: los pilares del turismo responsable."
-                :audio="require('@/assets/curso/Tema7/prueba.mp3')"
+                :audio="require('@/assets/curso/Tema7/podcast.mp3')"
               )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mt-3

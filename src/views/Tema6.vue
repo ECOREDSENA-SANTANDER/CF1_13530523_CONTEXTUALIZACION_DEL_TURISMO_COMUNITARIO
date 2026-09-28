@@ -89,7 +89,7 @@
               h4.mb-1 Cartilla de emprendimiento SENA
               p.mb-0 Para ampliar la información sobre esta temática, se recomienda consultar la cartilla de emprendimiento disponible en el repositorio del SENA en el siguiente enlace:
             .col-sm-auto
-              a.boton.bg7(href="/downloads/Anexo_cartilla_emprendimiento.pdf" target="_blank")
+              a.boton.bg7(:href="obtenerLink('/downloads/anexos/Anexo_01_cartilla_emprendimiento.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -163,7 +163,7 @@
               h4.mb-1 ABC de la formalización turística en Colombia - MinCIT
               p.mb-0 Para ampliar la información sobre los trámites de formalización, se recomienda consultar la infografía oficial del Ministerio de Comercio, Industria y Turismo:
             .col-sm-auto
-              a.boton.bg7(href="https://www.mincit.gov.co/getattachment/minturismo/eventos-y-publicaciones/publicaciones/abece-de-la-formalizacion-turistica-en-colombia-20/abece-formalizacion-turistica-en-colombia-2025.pdf.aspx" target="_blank")
+              a.boton.bg7(:href="obtenerLink('/downloads/anexos/Anexo_02_Abecé_de_la_Formalización_Turística.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
